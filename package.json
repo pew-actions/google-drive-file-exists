@@ -1,0 +1,18 @@
+{
+  "name": "google-drive-file-exists",
+  "version": "1.0.0",
+  "description": "Github action to search for a file on Google Drive",
+  "main": "lib/main.js",
+  "scripts": {
+    "build": "tsc && ncc build"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.3",
+    "@vercel/ncc": "^0.34.0",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "googleapis": "^105.0.0"
+  }
+}
